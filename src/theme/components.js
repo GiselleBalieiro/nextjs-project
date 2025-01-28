@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as iconSet from '@fortawesome/free-solid-svg-icons';
 
-import { theme } from './Theme.js';
+import { theme } from './theme';
 
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
